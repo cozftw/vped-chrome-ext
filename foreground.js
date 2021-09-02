@@ -24,8 +24,8 @@ else if (currentUrl.includes("sip_logs.php?i_sip_log")) {
 
     var sClass = $('.separator').first().css('background-color');
 
-    if (sClass != "rgb(255, 255, 255)") {
-        $('.separator').first().css('background-color', 'rgb(255, 255, 255)');
+    if (sClass != "rgb(255, 255, 0)") {
+        $('.separator').first().css('background-color', 'rgb(255, 255, 0)');
 
         $('.separator').first().next().css('height', '70%');
     }
