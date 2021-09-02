@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Voiped Extension",
+  "description": "Quick launch for Lookup",
+  "version": "1.0.0",
+  "icons": {         
+    "16": "icon16.png",          
+    "24": "icon24.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"  
+  },
+  "background":{
+    "scripts":["background.js"]
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon":"icon16.png"
+  },
+  "permissions": ["activeTab","https://sbc3.voiped.eu/*","https://sbc4.voiped.eu/*"]
+}
